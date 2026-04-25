@@ -1,0 +1,3 @@
+**Interview Answer: Role of Container Images in CI Workflows**
+
+In CI workflows, container images are used to provide a **consistent and reproducible environment** for building, testing, and packaging applications. They bundle the application code with all required dependencies and runtime configurations, ensuring that every CI job runs in the same environment regardless of where it is executed. This eliminates environment-related issues, speeds up pipeline execution using pre-built images, and enables isolated, clean builds. Additionally, the same container image built during CI can be promoted to later stages of the pipeline, supporting the *build once, deploy everywhere* approach.
