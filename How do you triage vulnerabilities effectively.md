@@ -19,6 +19,7 @@ Based on this, I classify vulnerabilities into clear priority buckets like:
 
 Remediation work is then **tracked and validated**, ensuring patches are applied, dependencies are upgraded, or mitigations are in place. Finally, I continuously refine triage rules using threat intelligence, scanning trends, and post‑incident learnings.
 
+
 ### **One‑line interview summary**
 
 > *I triage vulnerabilities by combining severity scores with exploitability, asset criticality, and business impact, ensuring high‑risk issues are fixed first while lower‑risk ones are managed pragmatically.*
@@ -28,3 +29,14 @@ If you’d like, I can also:
 *   Tailor this answer for **DevSecOps or cloud environments**
 *   Explain how triage works with **SAST, DAST, or container scans**
 *   Give a **real production incident example**
+
+
+
+
+
+I triage vulnerabilities by first checking their severity and impact. I prioritize fixing critical and high‑risk vulnerabilities that affect production systems or expose sensitive data.
+I also consider factors like how easy the vulnerability is to exploit and whether it affects key services. Lower‑risk issues are scheduled for later fixes. This way, the most serious threats are handled first without delaying important work.
+
+One‑line version:
+
+I prioritize vulnerabilities based on severity, impact, and risk, fixing the most critical ones first.
