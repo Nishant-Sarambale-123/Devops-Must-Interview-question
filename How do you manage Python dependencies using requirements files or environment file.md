@@ -27,3 +27,11 @@ If you want, I can also:
 *   Compare **requirements.txt vs Pipenv vs Poetry**
 *   Explain **best practices in CI/CD**
 *   Give an **example project structure**
+
+
+
+
+
+I manage Python dependencies by using virtual environments and a requirements.txt file. A virtual environment helps keep each project’s libraries separate so they don’t conflict with other projects on the system.
+All the Python packages needed for the project, along with their versions, are listed in requirements.txt. This makes it easy for anyone on the team—or for servers in testing and production—to install the exact same dependencies using one command.
+This approach helps maintain consistency, avoids version conflicts, and ensures the application behaves the same across all environments.
