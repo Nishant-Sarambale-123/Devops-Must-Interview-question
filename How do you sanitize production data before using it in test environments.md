@@ -27,6 +27,12 @@ In a project, we copied production data to a staging environment after applying 
 
 > *I sanitize production data by automating masking, tokenization, or substitution of sensitive fields so test environments remain realistic while staying secure and compliant.*
 
+
+
+
+I sanitize production data before using it in test environments by removing or masking sensitive information. Personal details like names, emails, phone numbers, and passwords are either replaced with fake data or anonymized.
+This allows testing with realistic data while ensuring that no real user or business‑critical information is exposed. Access to sanitized data is also limited to avoid misuse.
+
 If you want, I can also:
 
 *   Tailor this for **AWS environments**
